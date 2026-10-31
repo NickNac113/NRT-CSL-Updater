@@ -4,7 +4,7 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_SUFFIXES = {'.md', '.txt', '.json', '.py', '.ps1', '.cmd', '.yml', '.cfg'}
-ALLOWED_EXTENSIONLESS = {'LICENSE', '.gitignore'}
+ALLOWED_EXTENSIONLESS = {'LICENSE', '.gitignore', '.gitattributes'}
 
 def check(paths):
     for p in paths:
