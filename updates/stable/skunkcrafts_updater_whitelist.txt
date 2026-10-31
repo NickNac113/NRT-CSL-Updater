@@ -2,5 +2,5 @@ NRT-CSL-Tools/README.txt|1256170601
 NRT-CSL-Tools/VERSION.txt|2392726696
 NRT-CSL-Tools/Verify-NRT-CSL.cmd|3723832460
 NRT-CSL-Tools/Verify-NRT-CSL.ps1|403927204
-NRT-CSL-Tools/runtime-integrity.json|698781103
+NRT-CSL-Tools/runtime-integrity.json|2049110578
 changelog.txt|402963699

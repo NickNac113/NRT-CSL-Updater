@@ -27,7 +27,8 @@ def generate(root=ROOT):
     actual = {p.relative_to(payload).as_posix() for p in payload.rglob('*') if p.is_file()}
     if actual != set(PAYLOAD_FILES):
         raise ValueError(f'Payload violates the tools-only allowlist: {actual ^ set(PAYLOAD_FILES)}')
-    files = {name: (payload / name).read_bytes() for name in PAYLOAD_FILES}
+    # GitHub serves LF text; normalize Windows working copies before checksums.
+    files = {name: (payload / name).read_bytes().replace(b'\r\n', b'\n') for name in PAYLOAD_FILES}
     if files['NRT-CSL-Tools/VERSION.txt'].decode().strip() != config['version']:
         raise ValueError('VERSION.txt and release.json disagree.')
     cfg = '\n'.join((f"name|{config['name']}", f"module|{config['module']}",

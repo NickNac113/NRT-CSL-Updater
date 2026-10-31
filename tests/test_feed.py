@@ -40,6 +40,16 @@ class FeedTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'allowlist'):
                 builder.generate(stage)
 
+    def test_feed_is_identical_for_windows_line_endings(self):
+        with TemporaryDirectory() as d:
+            stage = Path(d)
+            shutil.copytree(ROOT / 'payload', stage / 'payload')
+            shutil.copy2(ROOT / 'release.json', stage / 'release.json')
+            for p in (stage / 'payload').rglob('*'):
+                if p.is_file():
+                    p.write_bytes(p.read_bytes().replace(b'\r\n', b'\n').replace(b'\n', b'\r\n'))
+            self.assertEqual(builder.generate(stage), builder.generate())
+
     def test_catalog_contains_metadata_only(self):
         catalog = json.loads((ROOT / 'payload/NRT-CSL-Tools/runtime-integrity.json').read_text())
         self.assertEqual(len(catalog['types']), 27)
