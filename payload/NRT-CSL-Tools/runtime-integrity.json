@@ -1,0 +1,502 @@
+{
+  "catalog_version": "NRT CSL v02/v03",
+  "types": {
+    "A19N": {
+      "allowed_manifest_sha256": [
+        "84194064dbb46523fa5421543f402a7f49ff6f029f92971048e9f59dad81d0f2"
+      ],
+      "default_manifest_sha256": "84194064dbb46523fa5421543f402a7f49ff6f029f92971048e9f59dad81d0f2",
+      "assets": {
+        "A19Nfan.png": "45ec6414354ddf384db311d647b68cb737befd1f7b0a71f23f2ffaa6356b08b9",
+        "NRT_A19N.obj": "d53c5792a5ff662a3d99a482bae846f6292d05775392933c39e9836709310689",
+        "NRT_A19N.png": "7e65494ec60c8125c17b10822c944b823423555f321e0f7c3ba4e9e8a2208d25",
+        "NRT_A19N_Fan.obj": "55ba643e4f57ee484ce81bc5b8f6b2f4408f98b62cba5f0dd1e30098dddfcdea",
+        "NRT_A19N_LIT.png": "1c023c6b63d9e410721b934dfee9ff91198d36b8e13453dbf71556f49833a120"
+      },
+      "paint_variants": 1
+    },
+    "A20N": {
+      "allowed_manifest_sha256": [
+        "4a4090c29c551f1f3fe58f39fe8fa17e7a00d38488404586107cea1dcec40880"
+      ],
+      "default_manifest_sha256": "4a4090c29c551f1f3fe58f39fe8fa17e7a00d38488404586107cea1dcec40880",
+      "assets": {
+        "A20Nfan.png": "45ec6414354ddf384db311d647b68cb737befd1f7b0a71f23f2ffaa6356b08b9",
+        "NRT_A20N.obj": "eaee425e15196d200fd43fd0e3834824897f354c6fe906b858e3f99a60189c93",
+        "NRT_A20N.png": "80c0437ecaa497dc185f9f918940367f3d01bad5739c70d569dccced43a98a67",
+        "NRT_A20N_Fan.obj": "1e1ee25b5f26f5d777f11573bca472050558b9b6c1f0b5217bc9a9d6632f0469",
+        "NRT_A20N_LIT.png": "dfe2396434ee0429b76c64f500ddd293812ba0cf5e42b05e2f5d25685b6144d5"
+      },
+      "paint_variants": 1
+    },
+    "A21N": {
+      "allowed_manifest_sha256": [
+        "6a18a8362301bc43337bb00421b8f9e062f53d8b4772c548f9ecbb1c003e53a5"
+      ],
+      "default_manifest_sha256": "6a18a8362301bc43337bb00421b8f9e062f53d8b4772c548f9ecbb1c003e53a5",
+      "assets": {
+        "A21Nfan.png": "45ec6414354ddf384db311d647b68cb737befd1f7b0a71f23f2ffaa6356b08b9",
+        "NRT_A21N.obj": "aa51541af710e91c6dff2380d761443e82d91baff522aea62145272703cb4e0f",
+        "NRT_A21N.png": "d70bac2c39ea5e64b89280fe92b12444cfdb29eb940db794434307a2c4965afd",
+        "NRT_A21N_Fan.obj": "f8630e023174007bd4ec3bffcb766647f9e15eddaa2fd4757d6665cf2fb088ff",
+        "NRT_A21N_LIT.png": "d3aa0496f70d3b12ad2a3dff57c348f082016a3143bd2ab7b02217fd27e947c8"
+      },
+      "paint_variants": 1
+    },
+    "A306": {
+      "allowed_manifest_sha256": [
+        "d2fbebac9bf00fd068dfec30c18ff9880f7ac7c12925765acf7b4b0ff7df10ad",
+        "b9b66b8b9e149ad00d35cafb352daf3de23cef7311adcb5ddad669f2e3304bb7",
+        "c462cf3cfa946bdd1b6a31ade2baf99ae7a13c695dbd99e7daa9496715bbf26e",
+        "8a9113cb1f5ad473e34ddfcbf03bb95da2063e860daa7a569100a0c070864284"
+      ],
+      "default_manifest_sha256": "d2fbebac9bf00fd068dfec30c18ff9880f7ac7c12925765acf7b4b0ff7df10ad",
+      "assets": {
+        "A306PWfan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A306GEF.obj": "a634c6fefce13c3766f4c0076efa84a1a60c5878e6ce69cb84f6a3dff2c133e2",
+        "NRT_A306GEF.png": "47dc4d3e8ad93fe761fe329ba9ab2655c626357679bbe0819b356a3cb616116c",
+        "NRT_A306GEF_Fan.obj": "aa2e7c3f970843b594e9f7bee0d85228144ea6d47fecf84a5d4ee56a19aff12f",
+        "NRT_A306GEF_LIT.png": "429da27da2e70fc619623e500d98669fe5097e58f8ac2cdf069711120f701cc0",
+        "NRT_A306GEP.obj": "2e3ea64f804bd4f0b31ee5ab539ce1499f6692b9f4a04f9b4e19c24068fe69b6",
+        "NRT_A306GEP.png": "96d882b87e255026180f2b42a239299309c2df12515c7d6d77745fdfd760a007",
+        "NRT_A306GEP_Fan.obj": "aa2e7c3f970843b594e9f7bee0d85228144ea6d47fecf84a5d4ee56a19aff12f",
+        "NRT_A306GEP_LIT.png": "ebfa09ab8aa83198c267bed7687e3d15e880178db4de61a3e5f11926fb4739ba",
+        "NRT_A306PWF.obj": "06ae8988efc262eae30f18d02f1064510e7728b7bb41cfe91cc01bac8749f44b",
+        "NRT_A306PWF.png": "9d24d96c9f5be136736ec16d43f5978ecbeb00e2c82cdcc260e706dbb3538277",
+        "NRT_A306PWF_Fan.obj": "aa2e7c3f970843b594e9f7bee0d85228144ea6d47fecf84a5d4ee56a19aff12f",
+        "NRT_A306PWF_LIT.png": "429da27da2e70fc619623e500d98669fe5097e58f8ac2cdf069711120f701cc0",
+        "NRT_A306PWP.obj": "904e430c2fad64dc8bbc6c1e2d441cfada8d75b7daf73c8181efd1c732f67901",
+        "NRT_A306PWP.png": "c8709ff63137b21aa8a3fb5c6ca5058941090d619ba0f6ab315a96c3a25e248a",
+        "NRT_A306PWP_Fan.obj": "aa2e7c3f970843b594e9f7bee0d85228144ea6d47fecf84a5d4ee56a19aff12f",
+        "NRT_A306PWP_LIT.png": "ebfa09ab8aa83198c267bed7687e3d15e880178db4de61a3e5f11926fb4739ba"
+      },
+      "paint_variants": 4
+    },
+    "A318": {
+      "allowed_manifest_sha256": [
+        "290086aeb5bf6fd57eea61395015e9d06297bb037880db9ef9bd2b6a34f03b03"
+      ],
+      "default_manifest_sha256": "290086aeb5bf6fd57eea61395015e9d06297bb037880db9ef9bd2b6a34f03b03",
+      "assets": {
+        "A318fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A318.obj": "569e2a2ca9168621d0b7d1e6cb5be14e1f2750381caa0d57f2cffc3acee95f91",
+        "NRT_A318.png": "45dd89694e2ff058c88d5423cd79f411798a9e0fbd8a69bf0e346c619693ba37",
+        "NRT_A318_Fan.obj": "759dd5db9b1916891dd77b30864bed3c6765f32587b088884f93a4ec1f104787",
+        "NRT_A318_LIT.png": "57e770aba170db98466de9a2ab8199fde5f4954c624e5db06380438814ad5516"
+      },
+      "paint_variants": 1
+    },
+    "A319": {
+      "allowed_manifest_sha256": [
+        "61b776c7ca9e40fe4846349740aabf13b5a9fb15098c21bf272bdc55516872d4"
+      ],
+      "default_manifest_sha256": "61b776c7ca9e40fe4846349740aabf13b5a9fb15098c21bf272bdc55516872d4",
+      "assets": {
+        "A319fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A319.obj": "938dc948a1ca237ed5af0fa1f0fd42c100a5f64f70fede56c4888cfbca9b89e3",
+        "NRT_A319.png": "1d1b1cb4aa5a1929c16778eafc7a8d6be63394c3f88aedd917edc5e6f17050d3",
+        "NRT_A319_Fan.obj": "1809ddb65a942d2c6f3723ecf57babf8a086e386db9dc79be8ce7a80ffb20e9f",
+        "NRT_A319_LIT.png": "59d24819b6d12b7e72b13557b466f67b79d2c88cee88921a03ccbe3f66f34e64"
+      },
+      "paint_variants": 1
+    },
+    "A320": {
+      "allowed_manifest_sha256": [
+        "5dfcf755e5cb5cb42784848d49fbffa7ef4f2718db313e2cfedfec102c72cf08"
+      ],
+      "default_manifest_sha256": "5dfcf755e5cb5cb42784848d49fbffa7ef4f2718db313e2cfedfec102c72cf08",
+      "assets": {
+        "A320fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A320.obj": "31d12dd82eaf6e2c7094b1f2e219b0ae194efce64796e74793326ef18980e0f7",
+        "NRT_A320.png": "d3121d2f2c6fdc665c3305bb032d79bc8c412932e981d3bcc7a686895c972ef6",
+        "NRT_A320_Fan.obj": "9c949be6fc5cc746a3c78afb406fe734cb654173f82c6d46f3c252588c3f6e79",
+        "NRT_A320_LIT.png": "a80051b9d8f83cf758e3ec29d79875aa1d141c3502ba73dce7a70b952b5c1940"
+      },
+      "paint_variants": 1
+    },
+    "A321": {
+      "allowed_manifest_sha256": [
+        "e289a68b6ee5639b05a02d862f4859912a1e6fe97f42d6150fa3e959c60290f3"
+      ],
+      "default_manifest_sha256": "e289a68b6ee5639b05a02d862f4859912a1e6fe97f42d6150fa3e959c60290f3",
+      "assets": {
+        "A321fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A321.obj": "0e01fd775a9bdcdc0e39456fac10da8b60a1e4a3de8db88c40af45ba394b7ba1",
+        "NRT_A321.png": "196f7c76daf447350e392511ca8e97d16d450166cccb2eb9f90073323793fe50",
+        "NRT_A321_Fan.obj": "37be6afbf6b2165b5c0949d965df7a181737391dd4194f31d01ae85fc2aeabc4",
+        "NRT_A321_LIT.png": "4b64747ac5e2d75f21e5b3ac8b54d402c761f15b5ba593d60aeb31e051d090d9"
+      },
+      "paint_variants": 1
+    },
+    "A359": {
+      "allowed_manifest_sha256": [
+        "d49363767b3cfbefe78968290e28be09c99da626a38ce6826d2a94cca5ca7911"
+      ],
+      "default_manifest_sha256": "d49363767b3cfbefe78968290e28be09c99da626a38ce6826d2a94cca5ca7911",
+      "assets": {
+        "A359fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A359.obj": "bfbdf33fe4d992028d2a06fc6aaa2688561fea0edf53fc157096b0bb9a99b2d3",
+        "NRT_A359.png": "3fb33714e6b28c468874371930aef541b5b2636e823cfdec6c6375fc35032007",
+        "NRT_A359_Fan.obj": "da50e95e5c2724e0455f43181297fcefc13d6b111fb05de63b5ee3d240155d49",
+        "NRT_A359_LIT.png": "90cbebde4f399c5c151ff094f032c40cd3f3aacf2ae58eef678125df7222d073"
+      },
+      "paint_variants": 1
+    },
+    "A388": {
+      "allowed_manifest_sha256": [
+        "b7fba6992848abd83f84fe518ba050bce47f10e520ff9416997c0fa53874b6ac"
+      ],
+      "default_manifest_sha256": "b7fba6992848abd83f84fe518ba050bce47f10e520ff9416997c0fa53874b6ac",
+      "assets": {
+        "A338fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_A388_fan.obj": "6530482a496e3fa8ac980d2293530fbd0540b4d1d23d7af1291266072678c4b8",
+        "NRT_A388_fuse.obj": "988a290adf4a443e37700bc811b956bb279d57f7bcdc68b01e84eed91a577ac4",
+        "NRT_A388_fuse.png": "25381faa9cb79ed4215d843cb7129e31f8ea1a66ea99db8a827cb665cd5ab22a",
+        "NRT_A388_fuse_LIT.png": "cb12454311ce258ecb3de05b2b44ec21406fe2b801ec5d4c4e183156a2ffe702",
+        "NRT_A388_wings.obj": "d4aaa71394f4dfc0c3a081101897dbffb98433cbf571397304a127f6add68f73",
+        "NRT_A388_wings.png": "5e5c06ba3efa99aae556ff802fcb7755df5366b38c7e8a88667b8d67bf7c6091",
+        "NRT_A388_wings_LIT.png": "1d0670ddef67411064d139d923201e49c3d509945192692b2f8a227b529420ca"
+      },
+      "paint_variants": 1
+    },
+    "B733": {
+      "allowed_manifest_sha256": [
+        "65b61895e857692acdc170d7fa958ab54364a60f57816f8c6e210e5cae0c5579"
+      ],
+      "default_manifest_sha256": "65b61895e857692acdc170d7fa958ab54364a60f57816f8c6e210e5cae0c5579",
+      "assets": {
+        "B733fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B733.obj": "cdba134843c1392f8923e093a5e96804cc8873ad07141954ccf507c0b6f060ce",
+        "NRT_B733.png": "0bb79d5d3c1e6c44b523546d13333c699d980ea0e981d47ae34631a2f0ec1cf5",
+        "NRT_B733_Fan.obj": "e8752a7967095baecd8bb5e2c6ee3fcf290843ff7de265bc082c87177c56abb6",
+        "NRT_B733_LIT.png": "53b4382b12bfec5e374736b25bf349103a5cc45d2f8087cc99dd7c3a176dee38"
+      },
+      "paint_variants": 1
+    },
+    "B735": {
+      "allowed_manifest_sha256": [
+        "aca2d297a07be859d328fd03836ff512f65f5ce807097706554fbd1b2bcdf3fa"
+      ],
+      "default_manifest_sha256": "aca2d297a07be859d328fd03836ff512f65f5ce807097706554fbd1b2bcdf3fa",
+      "assets": {
+        "B735fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B735.obj": "bf11ad594c0c7f6eecb309439fd7cca0f8912d938f517dccd20558da5568e772",
+        "NRT_B735.png": "099ffbd0aac58e4981fa0ee533d6ee2d465ae8ef69745eca9f041a74558dfba5",
+        "NRT_B735_Fan.obj": "a6bfb781940a3cae9e35afbd68796f17118a0a47ce2a068faa3941ad4b7ce31e",
+        "NRT_B735_LIT.png": "9b9a2756660867c4521bf823c6bcec6430d930b11d49cad76bb2ab85ea864fff"
+      },
+      "paint_variants": 1
+    },
+    "B738": {
+      "allowed_manifest_sha256": [
+        "86cec9c7c3b0d59b9966051ba977794db8e7d8073e654f6ef9960fe65679e385"
+      ],
+      "default_manifest_sha256": "86cec9c7c3b0d59b9966051ba977794db8e7d8073e654f6ef9960fe65679e385",
+      "assets": {
+        "B738fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B738.obj": "aa8a68ab9457454b4ffeb9f7d3e554c028e84c79724cfa3a1e179aa5bdd3ff6c",
+        "NRT_B738.png": "86716985877f4733452a0ebdb5f90aa7f60e85478b88da30532671bb51eeb6f8",
+        "NRT_B738_Fan.obj": "659c927f4f1fe02c1d69a598fd3554abd85907cc6c9f73d00d207d7754901863",
+        "NRT_B738_LIT.png": "dea419e810d354a59143f347d35067132c490b661e0f9469735ae64d60547f74"
+      },
+      "paint_variants": 1
+    },
+    "B739": {
+      "allowed_manifest_sha256": [
+        "3f60a9edfa85874c193ecc38c2d82a2a7cd4036884e52ed5d12c58bc5937bb9f"
+      ],
+      "default_manifest_sha256": "3f60a9edfa85874c193ecc38c2d82a2a7cd4036884e52ed5d12c58bc5937bb9f",
+      "assets": {
+        "B739fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B739.obj": "62de849f0af4c232bba1392e474504b729a8554e7fc6d08b474580d34ac3c11c",
+        "NRT_B739.png": "e6735d3a6bd1e67c6341cf6a0ae960449f249d7fb49b7f09d519fd9695df800a",
+        "NRT_B739_Fan.obj": "a7485c59c7f5d96e421d39fcf88ed9cc10bac14c24e02adb4610230449e84c3a",
+        "NRT_B739_LIT.png": "a9ef01f9b7aeb6c312659bb87b899c65adf4c0878c9924554c974e2afb3a67cf"
+      },
+      "paint_variants": 1
+    },
+    "B744": {
+      "allowed_manifest_sha256": [
+        "42ba506711e3b58335b60397deb76ab042f9a84647795dc91ef83698e626bb52",
+        "9ec9d2526b59b5a684a083a9308af5124b1982eb3aa8769a94f46cf4d23e357b"
+      ],
+      "default_manifest_sha256": "42ba506711e3b58335b60397deb76ab042f9a84647795dc91ef83698e626bb52",
+      "assets": {
+        "B744fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B744.obj": "9750758c92967c3036710ebe876a990b39a9f5642cee6643f8cd24b38b5b79a2",
+        "NRT_B744.png": "cccd1924e9ab7a5dea693b939754efeaf06f8dd9b86d4371389263b454d54db0",
+        "NRT_B744F.obj": "b49ec4af0cda8992c3913c9c88d08b2eae28724b4871664207c4c5f8f15fd91c",
+        "NRT_B744F.png": "5dfcd86e99058345e637064510e1cb2ca532ab19f042063074516368ec354437",
+        "NRT_B744F_Fan.obj": "5504cc7c4eb17e5b6bed1e3f70a96e7ddad4b23f5a0e9b238d22860f30111883",
+        "NRT_B744F_LIT.png": "b869c7ee17ebe32b9e262b9c0af17db2ee46c04801c239b41ae1729fb0da1989",
+        "NRT_B744_Fan.obj": "5504cc7c4eb17e5b6bed1e3f70a96e7ddad4b23f5a0e9b238d22860f30111883",
+        "NRT_B744_LIT.png": "f76dd78d62d9663efd612ee9690ef9d17cd67bb6ac646047a375ae2a112094ec"
+      },
+      "paint_variants": 2
+    },
+    "B748": {
+      "allowed_manifest_sha256": [
+        "60d3fbc02c3c4cc2acea554a25258b975a383332fcff4a4a8abf9db67d20966c",
+        "9844fc8afb37329325ee70c3584e803d2acaf9af5f9f7840373e1f8c9dc29f00"
+      ],
+      "default_manifest_sha256": "60d3fbc02c3c4cc2acea554a25258b975a383332fcff4a4a8abf9db67d20966c",
+      "assets": {
+        "B748fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B748.obj": "38765b2f97a9517d90aa669964d3af7a1a3f6e7e3c05826df9597fd89d5097a7",
+        "NRT_B748.png": "7528d350061ac0cec378405df2b4f7c53a2c519424b639ab23a6160efe43612a",
+        "NRT_B748F.obj": "20933671bf1324899f9d4bb2a9de04b658efb4a91ae47b555d79443a3348e534",
+        "NRT_B748F.png": "f11a2bdca07052db8310266975b1f2a61864a24189f819fc6fbbd3304b550083",
+        "NRT_B748F_Fan.obj": "2c64db0d0b895a44bd9305fab59479087c80e585780485a75a656e649bebc18d",
+        "NRT_B748F_LIT.png": "7721740c9db2b7ff15836700f5ada7f2caa533fb43bce2d0046225cfde025649",
+        "NRT_B748_Fan.obj": "2c64db0d0b895a44bd9305fab59479087c80e585780485a75a656e649bebc18d",
+        "NRT_B748_LIT.png": "58c83ab37d8cac7077d5efe703389548a16c925e5b8f52879efacaf62bb198d0"
+      },
+      "paint_variants": 2
+    },
+    "B752": {
+      "allowed_manifest_sha256": [
+        "d8b9cfed3ea191d78981bdb111d93a0ed85551513c73b5582660e21d682183f5",
+        "77a28367dbb2ae6fea3bd86775f04c6c91a6f3fc965aed3e8597f205b9bfaddf",
+        "2494cf6e644e45c56e696af406ce4dc5b28131f79c39870a707860c6eaaa2cda",
+        "533b410281147a1bfa4cd4e008e2155703cfc15814909164f4011329208836a5",
+        "4751a3089ba36279a47d7ee0f996ca128768ce89c0752ca797bf0e17785d22cb",
+        "1e5cc319d1ad6bbf747c28bf77e5c9399fafc0593be549cf64d4aa0505e8491e",
+        "2da6c0f2ecb9ab2807e78c6869c4c23b77f2c443a4ef01ee6977a7ff9deb77a7",
+        "a97b905f320421fd3717831308eb4717b28032f820539169c43994b209b0b6d1"
+      ],
+      "default_manifest_sha256": "d8b9cfed3ea191d78981bdb111d93a0ed85551513c73b5582660e21d682183f5",
+      "assets": {
+        "B752fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B752PWF.obj": "cc51bf8a39326bacf90930ad1d7ffe4056493c2c9eea5b6797c159ab3ea2b9eb",
+        "NRT_B752PWF.png": "94629f08e6295f6f6685360b106d4151c8c3cf451558948d95fa8f236004f49a",
+        "NRT_B752PWF_Fan.obj": "9da010190311e8d9a5416a3218bdf053171063ffa32fcc0ed3396bd42c4aeebe",
+        "NRT_B752PWF_LIT.png": "479f763bc739a4d0918c2aac7a0bed79f4ec747e0989b776a95f9c15483a0c73",
+        "NRT_B752PWP.obj": "515bf46db734ddfddab98036589a4c1fadde7059c6ad59841b8d3c35204dbf51",
+        "NRT_B752PWP.png": "bc65fc53ec4ea50b6dbe3baffe0c0d6b362f4a88d9348bbb59554437929cf5a7",
+        "NRT_B752PWP_Fan.obj": "9da010190311e8d9a5416a3218bdf053171063ffa32fcc0ed3396bd42c4aeebe",
+        "NRT_B752PWP_LIT.png": "10411efb2552b22dc61ef741ffec55ead32dc197d9c6b6590d6c86c08df7eda9",
+        "NRT_B752RRF.obj": "08bec9ee91de9347de1eaacde6ba23f002b1819d12e3c7bf63e552c55e54ce0f",
+        "NRT_B752RRF.png": "9555b8d4dddd4c609b3c6dac463caab89a408635146055b2862e3539a5d4d3f4",
+        "NRT_B752RRF_Fan.obj": "0742de5644ad19efa7c938c923d01606ab4e970e997625784dd434433eb4e1fe",
+        "NRT_B752RRF_LIT.png": "479f763bc739a4d0918c2aac7a0bed79f4ec747e0989b776a95f9c15483a0c73",
+        "NRT_B752RRP.obj": "323be4418c7104dda82ee2ab427df96ae383f46946c71016e4b6cc27efeda426",
+        "NRT_B752RRP.png": "3939813780e5036499ebfca13a15ac4a3c40a321d4dc13ab1f004ce4addb5bab",
+        "NRT_B752RRP_Fan.obj": "0742de5644ad19efa7c938c923d01606ab4e970e997625784dd434433eb4e1fe",
+        "NRT_B752RRP_LIT.png": "10411efb2552b22dc61ef741ffec55ead32dc197d9c6b6590d6c86c08df7eda9",
+        "NRT_B752WPWF.obj": "93918439bd7492f84e653e8b7b30a072356ccf689b21792b94f3d03fe73cf81a",
+        "NRT_B752WPWF.png": "4fcccb4b67cd39dd5917277b3547166d4b5bb85cfff52856a3c72250d27db24a",
+        "NRT_B752WPWF_Fan.obj": "9da010190311e8d9a5416a3218bdf053171063ffa32fcc0ed3396bd42c4aeebe",
+        "NRT_B752WPWF_LIT.png": "479f763bc739a4d0918c2aac7a0bed79f4ec747e0989b776a95f9c15483a0c73",
+        "NRT_B752WPWP.obj": "997ca4b530c95dcc75192b75ee2a4812f751a796b1ca08617cbc52575aec6a0f",
+        "NRT_B752WPWP.png": "def1b2dce0888ad2e074aa5e6ec1be0d266e40c4b8346a41a864bc4a41f8d7ca",
+        "NRT_B752WPWP_Fan.obj": "9da010190311e8d9a5416a3218bdf053171063ffa32fcc0ed3396bd42c4aeebe",
+        "NRT_B752WPWP_LIT.png": "10411efb2552b22dc61ef741ffec55ead32dc197d9c6b6590d6c86c08df7eda9",
+        "NRT_B752WRRF.obj": "98cc82707963c8968e6340b04e058f00efb5c049cd6cb9582010cc16effb1e9e",
+        "NRT_B752WRRF.png": "a8843ae40f78fad240ba50b64eb71f496230657fdd16e676096bbf5b2553f00a",
+        "NRT_B752WRRF_Fan.obj": "0742de5644ad19efa7c938c923d01606ab4e970e997625784dd434433eb4e1fe",
+        "NRT_B752WRRF_LIT.png": "479f763bc739a4d0918c2aac7a0bed79f4ec747e0989b776a95f9c15483a0c73",
+        "NRT_B752WRRP.obj": "a6b2d660261db2021c08d22c743d39ae7a1bca17a76ba0a5c469c1610af3b119",
+        "NRT_B752WRRP.png": "d258bc5f075f3d9ec8ec3c18e8061ca761c4d1448c9a2e1ab4daaee122c6b08d",
+        "NRT_B752WRRP_Fan.obj": "0742de5644ad19efa7c938c923d01606ab4e970e997625784dd434433eb4e1fe",
+        "NRT_B752WRRP_LIT.png": "10411efb2552b22dc61ef741ffec55ead32dc197d9c6b6590d6c86c08df7eda9"
+      },
+      "paint_variants": 8
+    },
+    "B753": {
+      "allowed_manifest_sha256": [
+        "da7a8442943960d1126094963895eb58e84568ab040cc91de949bd7df9bcf3e1",
+        "31d6e6b5646ac129f6a223c1042e450dbb3eb8e40070692f46e70742e0933288"
+      ],
+      "default_manifest_sha256": "da7a8442943960d1126094963895eb58e84568ab040cc91de949bd7df9bcf3e1",
+      "assets": {
+        "B753fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B753WPWP.obj": "fd27392eb3d452e0b4d5aa61b797138918bb551691824dc86898a23abd6d8ab0",
+        "NRT_B753WPWP.png": "d0373e5810946480424b6f119a705580f118ad058f6ba33bb04667a3f3ba3518",
+        "NRT_B753WPWP_Fan.obj": "73f147b9acd58978182ff76b20e27640117cbbd8d0c9d7f146778a7d711db1f1",
+        "NRT_B753WPWP_LIT.png": "f4a91c5776e39534b4034eee7d9f6733d08d710439549dd2c8934cf9e15e2714",
+        "NRT_B753WRRP.obj": "2de3b0d443a8bbe5ab74bb12784da80e60fd42f0634a8a027917a5c84c7830d3",
+        "NRT_B753WRRP.png": "cac093f8195a08b3a9e742a7319928aa2922ca27eb46c1e497481c3b1a4011ad",
+        "NRT_B753WRRP_Fan.obj": "41f03ba1a637eaa6dd51029569bbb57278fe61ff0f5096150f1220012beebaa5",
+        "NRT_B753WRRP_LIT.png": "f4a91c5776e39534b4034eee7d9f6733d08d710439549dd2c8934cf9e15e2714"
+      },
+      "paint_variants": 2
+    },
+    "B763": {
+      "allowed_manifest_sha256": [
+        "7619ace907f39bdbad3b53168853f690eee987cfcedcec52325b102f1866c816",
+        "4807789c436dfd25b307eb71af87befcbce69e8a1b69424973166d8c3c7a1880",
+        "844508424cb6103fbf92f0f9dbb6fbb0a02fa37f51d52d029be6b4d043d42837",
+        "15ddadd2684c0d317f2a0f972702f70bb68c34f993faa6cc2b66ed94c5b1b9ad",
+        "c0a8d6081ff698338084df93d379603ce5408d84311337a2d07b4f60e19694d8",
+        "423356257edba54320e8e3e5a625f5b1fbfb5f6e755dcce53b7130456e05e274",
+        "e9323b0fe8aaa06d7b5165a1f6e57893e18911c99f20cd2ba6097429eec06e90",
+        "a6f81381789c3551a295990e02b3d12db50a8eb329851d6f5101a1a96e131dfd"
+      ],
+      "default_manifest_sha256": "7619ace907f39bdbad3b53168853f690eee987cfcedcec52325b102f1866c816",
+      "assets": {
+        "B763fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B763GEF.obj": "213ba8c2f22592831f2cbcfc1b0f66669637c79b9fe31ec3d3dca002423e2381",
+        "NRT_B763GEF.png": "ad5196a217b90e3ef2445a6f1f4fb15dc0c5c3bc565dfe7d60a2cfe6494b0359",
+        "NRT_B763GEF_Fan.obj": "856302f63f4e3e2ac46716d0cd457edea1e0be0f486d2ad0d2199765df8b6dbd",
+        "NRT_B763GEF_LIT.png": "6d05a8fdc681fa48e3bba56aa17db8899957016e5c94f15388357f745f03a518",
+        "NRT_B763GEP.obj": "b6ed22975090aadd387b03ba9f9c2facf50fc31007ca36ce1d24f2991d8eddc5",
+        "NRT_B763GEP.png": "0de911bff7a79f0048cd41e53d83a2111e91e40a2f20a5593b922916f3b2d46e",
+        "NRT_B763GEP_Fan.obj": "856302f63f4e3e2ac46716d0cd457edea1e0be0f486d2ad0d2199765df8b6dbd",
+        "NRT_B763GEP_LIT.png": "d8a97d11fbc29c24ad5e3feee98c08cd7d5430e0486ebda92ee5a6a0c1e5f5cf",
+        "NRT_B763GEWF.obj": "ec21281cec8f0235b867257361fb9fc245fcb88e47503ca51a728c82be72e2e3",
+        "NRT_B763GEWF.png": "024ffe278e5894e9d3b65ee3fe9eb6bd0f0392319f60e229bf96a39e8e2d2c85",
+        "NRT_B763GEWF_Fan.obj": "856302f63f4e3e2ac46716d0cd457edea1e0be0f486d2ad0d2199765df8b6dbd",
+        "NRT_B763GEWF_LIT.png": "6d05a8fdc681fa48e3bba56aa17db8899957016e5c94f15388357f745f03a518",
+        "NRT_B763GEWP.obj": "95b48fa587b8bf67e2d0320b207d5f00f010a682b91dd39c6bfcd74785ab8955",
+        "NRT_B763GEWP.png": "c7ec452f78d993c4a278d0e39fd6ec237ed01f75607c290893a7c41298c7c3f6",
+        "NRT_B763GEWP_Fan.obj": "856302f63f4e3e2ac46716d0cd457edea1e0be0f486d2ad0d2199765df8b6dbd",
+        "NRT_B763GEWP_LIT.png": "d8a97d11fbc29c24ad5e3feee98c08cd7d5430e0486ebda92ee5a6a0c1e5f5cf",
+        "NRT_B763PWF.obj": "9c5dffc01b2430ce0d29a061e32ebf204608f14c01ffe0654681ec7c12fd0c9b",
+        "NRT_B763PWF.png": "00f0b4cd6f374a209ef1f41364c18297a1eca20edf9d3e9f1cd8794d924a1157",
+        "NRT_B763PWF_Fan.obj": "7c0d0c6e4d545fe495d6f503f696fbede28cbe2532069548c7e75503d15418d0",
+        "NRT_B763PWF_LIT.png": "fcab161d187542d8f64ec57e65cd04f605efd38a0b8bfc3602cec177f5ff6c29",
+        "NRT_B763PWP.obj": "fd586bf1a87a3aa07d601dac59ef3af546038c76b58ead3bcc17b2f7bc60fa90",
+        "NRT_B763PWP.png": "3bbbc951b17aa9867f8125ee1b66993f9425c41a8ad389984b9f42c1271b9f03",
+        "NRT_B763PWP_Fan.obj": "7c0d0c6e4d545fe495d6f503f696fbede28cbe2532069548c7e75503d15418d0",
+        "NRT_B763PWP_LIT.png": "7306fbfd160fd1245eb210882df90a544a07aeb28fd545f85bffab8fbd8dee2b",
+        "NRT_B763PWWF.obj": "787045dd20a7bca5415865260748039972fc36f384308e3a90e29460aefb3a1c",
+        "NRT_B763PWWF.png": "37802eeff30ef0af3d9a5354efb3a7491b697bd8a1073204ebd0cf0d05b3e084",
+        "NRT_B763PWWF_Fan.obj": "7c0d0c6e4d545fe495d6f503f696fbede28cbe2532069548c7e75503d15418d0",
+        "NRT_B763PWWF_LIT.png": "fcab161d187542d8f64ec57e65cd04f605efd38a0b8bfc3602cec177f5ff6c29",
+        "NRT_B763PWWP.obj": "1a55084e7f57416117a17cb7207040412d804050de414c9806f00b9871e8cb13",
+        "NRT_B763PWWP.png": "915b3e1b864bd7c3a9ed9d9ad78d0a28d103adc4d9d4010b679f3328748af01a",
+        "NRT_B763PWWP_Fan.obj": "7c0d0c6e4d545fe495d6f503f696fbede28cbe2532069548c7e75503d15418d0",
+        "NRT_B763PWWP_LIT.png": "7306fbfd160fd1245eb210882df90a544a07aeb28fd545f85bffab8fbd8dee2b"
+      },
+      "paint_variants": 8
+    },
+    "B764": {
+      "allowed_manifest_sha256": [
+        "78ebf93cc26739450710543bc5f1de0705daaeebe6fc77aaccc45e6684be94b6"
+      ],
+      "default_manifest_sha256": "78ebf93cc26739450710543bc5f1de0705daaeebe6fc77aaccc45e6684be94b6",
+      "assets": {
+        "B764fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B764GEP.obj": "1086c7df2c95ec44dd80636d7568f44ba03983c951261b021311ac6e8424f47d",
+        "NRT_B764GEP.png": "60c25c7c72e981732dd465936daf80fccb51728de4e50643ece26ab9aed49bbd",
+        "NRT_B764GEP_Fan.obj": "231a2270c4801b52caedb51a41da2ea5ab3d9ffb68ca451f301f9ed777ecc47a",
+        "NRT_B764GEP_LIT.png": "646776932314bbe199c1792d43569cf3242d3ac7a495433d359c76ad525e8526"
+      },
+      "paint_variants": 1
+    },
+    "B772": {
+      "allowed_manifest_sha256": [
+        "034ae1e83b217688d6f6e4422ceb17f1093e9ff068a2f0cb9933a4218729d159"
+      ],
+      "default_manifest_sha256": "034ae1e83b217688d6f6e4422ceb17f1093e9ff068a2f0cb9933a4218729d159",
+      "assets": {
+        "B772fan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B772.obj": "b74a261d6928a22583b852155f1a1ca94f9e62551eae372ab09d3df00a87781f",
+        "NRT_B772.png": "a9330dafc91dc65ae1c555645cb7a6d0dcc7538db3f9cb600510893a56432d4d",
+        "NRT_B772_Fan.obj": "0e42326d395c8ecc584200bc5c7d3f8357c21b009885d626fd6193ee364e07ea",
+        "NRT_B772_LIT.png": "0220f25559743c669d20703077ea42148e678eb66ac16ec0fd19772983c4cb6a"
+      },
+      "paint_variants": 1
+    },
+    "B77L": {
+      "allowed_manifest_sha256": [
+        "58d6d1cf85f23b122e58793ec248f495546bed7a1c2579f298f06aa478fc27ab",
+        "3bd51574da5a442b76bd5d1ad8f39c156a23b0d816b04a9748a354fdf3e0efd3"
+      ],
+      "default_manifest_sha256": "58d6d1cf85f23b122e58793ec248f495546bed7a1c2579f298f06aa478fc27ab",
+      "assets": {
+        "B77Lfan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B77F.obj": "c0faae4a74c676bddade3119ecd58eb85e2092eadf33de832fbedcc8cab7f714",
+        "NRT_B77F.png": "4ae2962f6b4036c18fa077e709875be16fc670f87563aec090ca67b241434260",
+        "NRT_B77F_Fan.obj": "37783c3f056e38f1ad300b359ab0caa6cadd57e8252a09a2e4c17ec9a5ee9bd7",
+        "NRT_B77F_LIT.png": "dbebc2d47ce607f0ea617d528f1f6ec35573dbb1b58abed01995dcf6903897d4",
+        "NRT_B77L.obj": "b52a841f90815f2773514ee47e679a6e052531b123e7326443e75d4604f031b1",
+        "NRT_B77L.png": "57e34ee138384ccab1db6bf3f33854ffda9bf5b198012b69b5f801ebf7e94ba5",
+        "NRT_B77L_Fan.obj": "37783c3f056e38f1ad300b359ab0caa6cadd57e8252a09a2e4c17ec9a5ee9bd7",
+        "NRT_B77L_LIT.png": "4e71dad5e6691ab1fe7f17e545a6e9b9ba624cbd3d70a034eae03c10f8de2d1e"
+      },
+      "paint_variants": 2
+    },
+    "B77W": {
+      "allowed_manifest_sha256": [
+        "825e54be20899b0d535b22613d6117e88dd9aafd490ecef36bc6fbc674084a22"
+      ],
+      "default_manifest_sha256": "825e54be20899b0d535b22613d6117e88dd9aafd490ecef36bc6fbc674084a22",
+      "assets": {
+        "B77Wfan.dds": "3e8c257a241c93183fc52845d17b2a42e627eef9aeb6f28da8e53328c810026f",
+        "NRT_B77W.obj": "bd504f88aafe1f1b240c903b7cb8fddba6f5886cac99b72eb42521b3a17f0ba2",
+        "NRT_B77W.png": "37b3143c844f691fab4e831a7412b7d726c2a29f146911d9f89a143247e5eed7",
+        "NRT_B77W_Fan.obj": "1ff7780e9e46181358bae427233913c33d7843225e0c7ee20631d2748e013501",
+        "NRT_B77W_LIT.png": "578018d29c6188d062751a04d79ceeba9f44377271f9e7f680b83bd0bef02059"
+      },
+      "paint_variants": 1
+    },
+    "C130": {
+      "allowed_manifest_sha256": [
+        "d6847b755d590c02c59de2a9f8eeb80b23ebd522308135dce397db00731c0344"
+      ],
+      "default_manifest_sha256": "d6847b755d590c02c59de2a9f8eeb80b23ebd522308135dce397db00731c0344",
+      "assets": {
+        "C130prop.png": "7ae100bd0890ea81419024919df376bd77a2c90dd1e7e39bc8a33f59a6e2a48b",
+        "NRT_C130_H.obj": "9bd28627c7c2ccc9f314271cb62d1040c6eec9f5da2ceecb6ac0ac4d8b25f587",
+        "NRT_C130_H.png": "337176b7c0c9252c4180494412d93147a7a187b405bd2fb5eeadf227b1cb220a",
+        "NRT_C130_HL.obj": "a997ac524bfa16d9281808a6b27e114aee61714eb1cc6bb6f9cadb4ee7411ac9",
+        "NRT_C130_HL.png": "c5757529c2764157cc7d777644d28788e4e7ab4909a497672ef859d809c096b9",
+        "NRT_C130_HL_LIT.png": "5dddee6da4cf69c61369e1e983bedcf8640f4b960b71ec99421c373420542750",
+        "NRT_C130_HT.obj": "a508c0af8195136342aead90859a8543de33f198e9f56981e70396aeda25199d",
+        "NRT_C130_HT.png": "7ea59bb9c2b0ea59d2abb89fed17f5355f17ecdb66cfa93cb944adc160067965",
+        "NRT_C130_HT_LIT.png": "47cfd18d48016d9ca12643d819f6c4f71da66ba9a7701e62023117d793f2acdd",
+        "NRT_C130_H_LIT.png": "47cfd18d48016d9ca12643d819f6c4f71da66ba9a7701e62023117d793f2acdd",
+        "NRT_C130_prop.obj": "9176a231e061ccc494e7678e020b01a1b54e5168a087d1dcb7c655a64babb022"
+      },
+      "paint_variants": 3
+    },
+    "C208": {
+      "allowed_manifest_sha256": [
+        "ed66d2f30eeba97037fdb29e8f719134fafb281f87582b2720bc479a0494c428"
+      ],
+      "default_manifest_sha256": "ed66d2f30eeba97037fdb29e8f719134fafb281f87582b2720bc479a0494c428",
+      "assets": {
+        "C208prop.dds": "5ce6836a7fcbc77396ae16e46fd9a17c0391232d34a4bb09adbf2d66b49505a2",
+        "NRT_C208_plain.obj": "4b1a35e373d6d4218af4e38d459926ba5e7e60e81806df6eb307ee4fa62e5185",
+        "NRT_C208_plain.png": "6a962da65d333065f44cd059cbb9bf5684b5f3a530e3baca0852ed8ce7532eec",
+        "NRT_C208_plain_LIT.png": "bee56896d0e2eedc2716d749e5e618fdb0024e2dbe8642417ec431274370a280",
+        "NRT_C208_pod.obj": "3533e98b108849a91badbd4c53cfac90de55b15777859fb4d30574f1a5433a97",
+        "NRT_C208_pod.png": "f5e5795ff6c5584cdeb7824833c39432b7dc2b6a58188b089d46f2e7ae84cafb",
+        "NRT_C208_pod_LIT.png": "bee56896d0e2eedc2716d749e5e618fdb0024e2dbe8642417ec431274370a280",
+        "NRT_C208_prop.obj": "f48100197b11b000dda8fecbea3ec7d43682d72aca66b8d102cbafeda5f79acc"
+      },
+      "paint_variants": 2
+    },
+    "DH8D": {
+      "allowed_manifest_sha256": [
+        "39c0302a85851bad52992c31934f2baf96828676a0e95c2ce1bf3da5db908959"
+      ],
+      "default_manifest_sha256": "39c0302a85851bad52992c31934f2baf96828676a0e95c2ce1bf3da5db908959",
+      "assets": {
+        "DH8Dprop.png": "7420ad7dc42200c966701109a0fac360ba8b78998732d689d5e301c15ff3b55b",
+        "NRT_DH8D_body.obj": "6268e320c2eedf39a0259966b28c13b8d1612064868fbd52add2239a7218eedc",
+        "NRT_DH8D_body.png": "a4916ffb52117ce2dcd70c0f78d474e76731ac4647782d5ca8ba5bfe07acb9cb",
+        "NRT_DH8D_body_LIT.png": "9d0318f8bd2cd3a3772b2c8a142bc4186bb735241d5a0b93ee3ff89f8986cb45",
+        "NRT_DH8D_prop.obj": "3113ec4f0ae0febc8f0d9930b13add1a63303617df3ab752c1a48b01c938682b"
+      },
+      "paint_variants": 1
+    },
+    "MD11": {
+      "allowed_manifest_sha256": [
+        "d57cdbd71315a6983778336756200d57b1b7034fdeaf2e705bbd8ae4eee590bc",
+        "70451eb771eb53917a273c0ed7252a2842707f7e30999e7b131ed624c6be1df3"
+      ],
+      "default_manifest_sha256": "d57cdbd71315a6983778336756200d57b1b7034fdeaf2e705bbd8ae4eee590bc",
+      "assets": {
+        "NRT_MD11F.obj": "08248cc4ec229da02ad17757ec3893bbdbf631070243dfe8b0cf33355c7254c8",
+        "NRT_MD11F.png": "afbc3ce45315d033969b6266eafb4534525866f3136d6f31a4326bafd7ac68fc",
+        "NRT_MD11F_LIT.png": "cacb7ddb6a40dfe0dc4905ff5592aed9a862dd1950a0436079f0171bb7015715",
+        "NRT_MD11P.obj": "adfb40100edb1d39d9006169b9828fe72d7d45c0aee4f19bfffc1241a10b0c23",
+        "NRT_MD11P.png": "8727eee9489f7b6f048faaab7abcf67a2988ce61f05c2a1836f1dda6d7377295",
+        "NRT_MD11P_LIT.png": "939d5452e2d318cb84da9f109fa21966f419a7a54e39dfea1457e27443f7d19b"
+      },
+      "paint_variants": 2
+    }
+  }
+}

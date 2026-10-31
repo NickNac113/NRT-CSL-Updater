@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "name": "NRT CSL Verification Tools",
+  "module": "https://raw.githubusercontent.com/NickNac113/NRT-CSL-Updater/main/updates/stable/",
+  "scope": "tools-only"
+}

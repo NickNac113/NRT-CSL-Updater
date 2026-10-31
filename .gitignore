@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.zip
+*.obj
+*.png
+*.dds
+*.psd
+*.blend
+*.ktx2
+build/
+test-output/
+.DS_Store

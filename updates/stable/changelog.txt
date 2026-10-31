@@ -1,0 +1,5 @@
+0.1.0
+- Add SkunkCrafts standalone update support for NRT CSL verification tools.
+- Check the existing 27 aircraft-type folders and their model/texture hashes.
+- Detect empty or zero-filled files after transfer.
+- Keep the public feed limited to tools; aircraft assets are supplied separately.
